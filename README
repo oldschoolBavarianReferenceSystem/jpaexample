@@ -13,15 +13,6 @@ http://docs.jboss.org/hibernate/orm/4.1/quickstart/en-US/html/ch04.html
 You can find their code here:
 http://docs.jboss.org/hibernate/orm/4.1/quickstart/en-US/html/files/hibernate-tutorials.zip
 
-
-Database
-========
-
-The example uses an H2 in-memory database. There is no need to start the database
-as a second process, it will be automatically provided by the JDBC driver
-when using it.
-
-
 Usage
 =====
 
@@ -31,6 +22,18 @@ will build the package and execute the unit test.
 
 All code is in the one unit test and if everything works well,
 you will see some debugging output from the test case on command line.
+
+If you want to use the code in eclipse, just execute the usual
+
+mvn eclipse:eclipse
+
+
+Database
+========
+
+The example uses an H2 in-memory database. There is no need to start the database
+as a second process, it will be automatically provided by the JDBC driver
+when using it.
 
 
 Copyright
