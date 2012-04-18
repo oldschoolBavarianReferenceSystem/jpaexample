@@ -8,6 +8,11 @@ import javax.persistence.Id;
 import javax.persistence.Lob;
 import javax.persistence.Table;
 
+/**
+ * A POJO representing a book with simple attributes.
+ * @author bjoern
+ *
+ */
 @Entity
 @Table(name="BOOK")
 public class Book {

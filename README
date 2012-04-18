@@ -1,0 +1,66 @@
+jpaexample
+==========
+
+2012-04-18, Bjoern Hoefling <bjoern.hoefling@bjoernhoefling.de>
+
+This is an example of using Hibernate as an Entity Manager for JPA.
+It is intentionally kept very basic.
+
+Ideas and persistence.xml are from
+
+http://docs.jboss.org/hibernate/orm/4.1/quickstart/en-US/html/ch04.html
+
+You can find their code here:
+http://docs.jboss.org/hibernate/orm/4.1/quickstart/en-US/html/files/hibernate-tutorials.zip
+
+
+Database
+========
+
+The example uses an H2 in-memory database. There is no need to start the database
+as a second process, it will be automatically provided by the JDBC driver
+when using it.
+
+
+Usage
+=====
+
+mvn clean install
+
+will build the package and execute the unit test.
+
+All code is in the one unit test and if everything works well,
+you will see some debugging output from the test case on command line.
+
+
+Copyright
+=========
+
+The original tutorial is distributed under LGPL.
+As I copied persistence.xml and most of the unit test verbatim, I also release 
+this under LGPL.
+
+This is the original copyright note of the tutorial:
+
+
+  ~ Copyright (c) 2010, Red Hat Inc. or third-party contributors as
+  ~ indicated by the @author tags or express copyright attribution
+  ~ statements applied by the authors.  All third-party contributions are
+  ~ distributed under license by Red Hat Inc.
+  ~
+  ~ This copyrighted material is made available to anyone wishing to use, modify,
+  ~ copy, or redistribute it subject to the terms and conditions of the GNU
+  ~ Lesser General Public License, as published by the Free Software Foundation.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+  ~ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License
+  ~ for more details.
+  ~
+  ~ You should have received a copy of the GNU Lesser General Public License
+  ~ along with this distribution; if not, write to:
+  ~ Free Software Foundation, Inc.
+  ~ 51 Franklin Street, Fifth Floor
+  ~ Boston, MA  02110-1301  USA
+
+
